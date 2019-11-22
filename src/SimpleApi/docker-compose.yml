@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  simpleapi.webapi:
+    image: ${DOCKER_REGISTRY-}simpleapiwebapi
+    build:
+      context: .
+      dockerfile: SimpleApi.WebApi/Dockerfile

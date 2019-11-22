@@ -1,0 +1,10 @@
+version: '3.4'
+
+services:
+  simpleapi.webapi:
+    image: simpleapiwebapi
+    build:
+      context: .
+      dockerfile: SimpleApi.WebApi/Dockerfile
+    ports:
+      - 54411:80

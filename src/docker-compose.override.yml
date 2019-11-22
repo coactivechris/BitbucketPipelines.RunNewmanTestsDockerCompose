@@ -1,0 +1,6 @@
+version: '3.4'
+
+services:
+  simpleapi.webapi:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
